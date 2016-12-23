@@ -1,7 +1,7 @@
-import time, requests, sys
 from requests import post
 from json import dumps
 from getopt import getopt, GetoptError
+import time, sys
 
 def main(argv):
     flags = "h:p:"

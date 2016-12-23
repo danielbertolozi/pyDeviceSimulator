@@ -1,4 +1,19 @@
 # pyDeviceSimulator
 
 Python script that simulates devices being detected by a sensor. Think about iBeacons passing by a Raspberry Pi.
+
 Nothing very special, I'm just keeping this because I find myself using it often for testing.
+
+# Usage
+
+```
+python3 DeviceSimulator.py [-h | --host] 'host' [-p | --port] 'port'
+```
+
+Where the arguments will be the destination the script will POST to.
+
+The script depends on requests, so be sure to install it with:
+
+```
+pip3 install requests
+```
