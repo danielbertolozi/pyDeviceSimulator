@@ -1,0 +1,4 @@
+# pyDeviceSimulator
+
+Python script that simulates devices being detected by a sensor. Think about iBeacons passing by a Raspberry Pi.
+Nothing very special, I'm just keeping this because I find myself using it often for testing.
